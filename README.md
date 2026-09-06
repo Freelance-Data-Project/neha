@@ -20,11 +20,11 @@
       s.parentNode.insertBefore(t, s)
     }(window, document, 'script',
       'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '906737922209706');
+    fbq('init', '1027132056719027');
     fbq('track', 'PageView');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=906737922209706&ev=PageView&noscript=1" /></noscript>
+      src="https://www.facebook.com/tr?id=10271320567190276&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
 
   
@@ -34,7 +34,7 @@
 
   <div class="top-banner">
     Don't have <strong>Telegram</strong> yet?
-    <a href="https://t.me/NEHA_BOOK_PUBLICATION2">Try it now</a>
+    <a href="https://NEHA_BOOK_PUBLICATION_11/">Try it now</a>
   </div>
 
   <div class="header">
@@ -45,7 +45,7 @@
   <h4>India's No. 1 Trusted Company: PaperScript Outsourcing</h4>
 
   <!-- Join Button -->
-  <a target="_blank" href="https://t.me/NEHA_BOOK_PUBLICATION2" class="telegram-button"
+  <a target="_blank" href="https://t.me/NEHA_BOOK_PUBLICATION_11" class="telegram-button"
     onclick="trackSubscribe();">
     Apply on Telegram
   </a><br>
