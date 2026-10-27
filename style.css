@@ -1,0 +1,72 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#071d55;
+  background:linear-gradient(180deg,#eaf8ff 0%,#fff 48%,#eef9ff 100%);
+}
+.page{width:min(100%,820px);margin:auto;padding:18px 24px 26px;overflow:hidden}
+.online-badge{
+  width:max-content;margin:0 auto 12px;padding:10px 22px;border-radius:30px;
+  background:#e4f9e8;color:#087c35;font-weight:800;font-size:20px;
+  box-shadow:0 4px 14px rgba(0,120,70,.08)
+}
+.online-badge span{display:inline-block;width:14px;height:14px;background:#16c65b;border-radius:50%;margin-right:8px}
+.hero{text-align:center;position:relative;padding:10px 0 16px}
+.photo-wrap{
+  width:190px;height:190px;margin:0 auto 12px;padding:7px;border-radius:50%;
+  background:#fff;border:5px solid #10a9ee;box-shadow:0 0 0 5px #d9f5ff,0 10px 30px rgba(0,130,220,.25)
+}
+.profile-photo{width:100%;height:100%;object-fit:cover;border-radius:50%;display:block}
+h1{font-size:48px;line-height:1;margin:4px 0 5px;letter-spacing:1px}
+.trader-title{font-size:29px;font-weight:900;color:#1475d9;display:flex;justify-content:center;gap:14px;align-items:center}
+.trader-title span{width:70px;height:2px;background:#159ce8}
+.channel-title{font-size:24px;font-weight:800;color:#1471d5;margin-top:13px}
+.stars{color:#f5a300;font-size:39px;letter-spacing:4px;line-height:1.1;margin-top:5px}
+.rating{color:#666;font-size:20px;font-weight:700;margin-top:5px}
+.telegram-btn{
+  display:flex;align-items:center;gap:15px;text-decoration:none;color:#fff;
+  background:linear-gradient(110deg,#1596f5,#0d7fea);border:2px solid #65caff;
+  border-radius:24px;padding:15px 26px;margin:8px 0 24px;
+  box-shadow:0 10px 24px rgba(0,129,237,.25);
+  position:relative;overflow:hidden;
+}
+.telegram-btn:hover{transform:translateY(-2px);box-shadow:0 14px 30px rgba(0,129,237,.3)}
+.tg-icon{
+  width:68px;height:68px;border-radius:50%;background:#fff;color:#1289e9;
+  display:grid;place-items:center;font-size:42px;transform:rotate(-12deg);flex:0 0 auto
+}
+.tg-copy{display:flex;flex-direction:column;gap:4px;min-width:0}
+.tg-copy strong{font-size:27px}
+.tg-copy small{font-size:19px;font-weight:600;word-break:break-all}
+.pulse-lines{margin-left:auto;font-size:46px;line-height:1;animation:pulse .9s infinite alternate}
+@keyframes pulse{to{transform:scale(1.18);opacity:.55}}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.stat-card{
+  background:#fff;border:1px solid #e7edf7;border-radius:20px;padding:20px 10px;
+  text-align:center;box-shadow:0 6px 20px rgba(0,70,150,.08)
+}
+.stat-card b{display:block;font-size:32px}.stat-card strong{display:block;font-size:31px;color:#0c63d7}.stat-card span{font-size:18px;font-weight:800;color:#111}
+.intro{text-align:center;padding:23px 0 12px}
+.intro h2{font-size:29px;line-height:1.25;margin:0}.intro em{color:#1174db;font-style:normal}.intro p{color:#777;font-size:19px;margin:10px 0;font-weight:600}
+.limited{background:#fff1d5;color:#ef5c19;text-align:center;font-size:21px;font-weight:900;padding:13px;border-radius:25px;margin:8px 0 14px}
+.features{display:flex;flex-direction:column;gap:12px}
+.feature{
+  display:flex;align-items:center;gap:18px;background:#fff;border:1px solid #e9edf5;
+  padding:16px 20px;border-radius:19px;box-shadow:0 5px 18px rgba(0,50,120,.07)
+}
+.feature>div{font-size:39px;width:50px;text-align:center}.feature section{display:flex;flex-direction:column;gap:4px}
+.feature strong{font-size:22px}.feature span{font-size:17px;color:#777;font-weight:600}
+.bottom{margin-top:18px;margin-bottom:14px}
+footer{text-align:center;color:#707070;font-size:14px;line-height:1.35;padding:0 35px}
+footer strong{font-size:17px}footer p{margin:5px 0 0}
+@media(max-width:600px){
+  .page{padding:12px 14px 22px}.online-badge{font-size:16px;padding:8px 15px}
+  .photo-wrap{width:145px;height:145px}.hero h1,h1{font-size:35px}.trader-title{font-size:23px}.trader-title span{width:40px}
+  .channel-title{font-size:18px}.stars{font-size:30px}.rating{font-size:16px}
+  .telegram-btn{padding:12px 13px;border-radius:18px;gap:10px}.tg-icon{width:53px;height:53px;font-size:31px}.tg-copy strong{font-size:18px}.tg-copy small{font-size:13px}.pulse-lines{font-size:34px}
+  .stats{gap:8px}.stat-card{padding:13px 4px;border-radius:15px}.stat-card b{font-size:25px}.stat-card strong{font-size:23px}.stat-card span{font-size:14px}
+  .intro h2{font-size:22px}.intro p{font-size:15px}.limited{font-size:16px}.feature{padding:13px 12px;gap:11px}.feature>div{font-size:30px;width:35px}.feature strong{font-size:17px}.feature span{font-size:14px}
+  footer{padding:0 10px;font-size:12px}
+}
