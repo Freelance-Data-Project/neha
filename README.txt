@@ -10,7 +10,7 @@ Configured Telegram link:
 https://t.me/+2CfR4-D5Fkk2ODBl
 
 Configured Meta Pixel:
-1801399701077943
+1762625068372452
 
 Events:
 - PageView on page load
