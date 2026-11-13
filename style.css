@@ -1,0 +1,31 @@
+*{box-sizing:border-box}
+:root{--blue:#0864f5;--ink:#171827;--muted:#7d8088;--bg:#f5f8fc}
+body{margin:0;background:var(--bg);font-family:Arial,Helvetica,sans-serif;color:var(--ink)}
+.page{width:min(100%,820px);margin:0 auto;padding:42px 18px 28px;text-align:center}
+.online-pill{display:inline-flex;align-items:center;gap:12px;background:#e7f6e9;color:#198b3e;border-radius:30px;padding:13px 24px;font-size:18px;font-weight:700}
+.dot{width:13px;height:13px;border-radius:50%;background:#20c66b}
+.profile{padding-top:36px}
+.profile-photo{width:190px;height:190px;object-fit:cover;border-radius:50%;border:6px solid white;box-shadow:0 8px 28px #15213b20}
+h1{font-size:36px;line-height:1.15;margin:18px 0 6px;font-weight:800}
+.tagline{margin:0;color:#0864f5;font-weight:700;font-size:21px}
+.stars{color:#ff9700;font-size:34px;letter-spacing:1px;margin-top:24px}
+.rating{color:var(--muted);font-size:19px;margin:6px 0 28px}
+.telegram-btn{min-height:104px;width:100%;display:flex;align-items:center;justify-content:center;gap:10px;padding:20px;border-radius:21px;color:white;text-decoration:none;font-size:24px;font-weight:800;background:linear-gradient(105deg,#0864f5 0%,#0755dc 62%,#77a9f1 100%);box-shadow:0 10px 22px #0864f533;animation:glow 2.2s ease-in-out infinite}
+@keyframes glow{0%,100%{box-shadow:0 8px 18px #0864f533}50%{box-shadow:0 10px 30px #0864f577}}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:28px 0}
+.stat{background:white;border-radius:21px;padding:22px 8px;box-shadow:0 5px 18px #15213b0b}
+.stat strong{display:block;color:var(--blue);font-size:31px;margin-bottom:5px}
+.stat span{font-size:17px}
+.intro{margin:28px 0 24px}
+.intro h2{font-size:28px;line-height:1.4;margin:0;font-weight:800}
+.intro h2 span{color:var(--blue)}
+.intro p{font-size:19px;color:var(--muted);line-height:1.5;margin:14px 0 0}
+.limited{background:#fff2dc;color:#e65300;border-radius:30px;padding:17px 12px;font-size:20px;font-weight:700;margin:24px 0}
+.features{display:grid;gap:14px;margin:24px 0}
+.feature{display:flex;align-items:center;gap:18px;text-align:left;background:white;border-radius:19px;padding:22px 24px;font-size:20px;box-shadow:0 5px 18px #15213b0b}
+.feature span{font-size:32px;min-width:40px;text-align:center}
+.bottom-btn{margin-top:26px}
+.disclaimer{color:#92959b;font-size:16px;line-height:1.55;margin:28px 8px 36px}
+footer{border-top:1px solid #d9dde4;padding-top:24px;color:#777;font-weight:600}
+.footnote{font-size:12px;color:#9a9da4;margin:14px 0 0}
+@media(max-width:480px){.page{padding:28px 18px 24px}.profile-photo{width:178px;height:178px}h1{font-size:34px}.tagline{font-size:18px}.telegram-btn{min-height:92px;font-size:21px;border-radius:20px}.stats{gap:10px}.stat{padding:18px 5px}.stat strong{font-size:27px}.stat span{font-size:15px}.intro h2{font-size:25px}.intro p{font-size:17px}.feature{font-size:18px;padding:20px 17px}}
